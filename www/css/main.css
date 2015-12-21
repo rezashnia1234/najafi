@@ -105,12 +105,12 @@
 	right:0;
 }
 .slide_navigator{
-    width: 100%;
-    position: fixed;
-    bottom: 0;
+    width: 100% !important;
+    position: fixed !important;
+    bottom: 0 !important;
     background-color: #673AB7;
-    height: 110px;
-    z-index: 2147483647;
+    height: 110px !important;
+    z-index: 2147483647 !important;
 }
 .slide_navigator div {
 	box-sizing: border-box;
@@ -182,7 +182,7 @@ div#slides {
 
 
 .slidesjs-control {
-    height: calc(100% - 108px) !important;
+    height: 100% !important;
 }
 img.silde_frame_image {
 height: 100%;
@@ -198,7 +198,7 @@ height: 100%;
     bottom: 0;
 }
 .silde_frame.slidesjs-slide {
-    height: 100%;
+    height: calc(100% - 108px) !important;
     background-color: white
 }
 
